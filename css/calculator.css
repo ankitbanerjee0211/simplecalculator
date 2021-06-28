@@ -30,6 +30,7 @@ th{
 body{
 	background-color: #BAB6BA;
 	width: 600px;
+	margin: 20px auto;
 }
 @media only screen and (max-width: 600px) {
   	body {

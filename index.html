@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8">
+
 <head>
 
 	<title>Simple Calculator</title>
@@ -8,6 +9,10 @@
 	<link rel="stylesheet" href="./css/calculator.css">
 
 	<script type="text/javascript" src="./js/calculator.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -25,11 +30,11 @@
 
 		<table class="calculator-table">
 
-			<tr> 
+			<tr>
 
-            	<td colspan="4"><input type="text" id="result"/></td> 
+				<td colspan="4"><input type="text" id="result" /></td>
 
-         	</tr>
+			</tr>
 
 			<tr>
 
@@ -43,7 +48,7 @@
 
 			</tr>
 			<tr>
-				
+
 				<td onmouseover="mouse_over(this)" onmouseout="mouse_outtd(this)" onclick="inverse()">1/x</td>
 
 				<td onmouseover="mouse_over(this)" onmouseout="mouse_outtd(this)" onclick="square()">x<sup>2</sup></td>
@@ -54,7 +59,7 @@
 
 			</tr>
 			<tr>
-				
+
 				<th onmouseover="mouse_over(this)" onmouseout="mouse_outth(this)" value="7" onclick="dis('7')">7</th>
 
 				<th onmouseover="mouse_over(this)" onmouseout="mouse_outth(this)" value="8" onclick="dis('8')">8</th>
@@ -65,7 +70,7 @@
 
 			</tr>
 			<tr>
-				
+
 				<th onmouseover="mouse_over(this)" onmouseout="mouse_outth(this)" value="4" onclick="dis('4')">4</th>
 
 				<th onmouseover="mouse_over(this)" onmouseout="mouse_outth(this)" value="5" onclick="dis('5')">5</th>
@@ -76,7 +81,7 @@
 
 			</tr>
 			<tr>
-				
+
 				<th onmouseover="mouse_over(this)" onmouseout="mouse_outth(this)" value="1" onclick="dis('1')">1</th>
 
 				<th onmouseover="mouse_over(this)" onmouseout="mouse_outth(this)" value="2" onclick="dis('2')">2</th>
@@ -87,14 +92,14 @@
 
 			</tr>
 			<tr>
-				
+
 				<th onmouseover="mouse_over(this)" onmouseout="mouse_outth(this)" onclick="sign()">+/-</th>
 
 				<th onmouseover="mouse_over(this)" onmouseout="mouse_outth(this)" value="0" onclick="dis('0')">0</th>
 
 				<th onmouseover="mouse_over(this)" onmouseout="mouse_outth(this)" value="." onclick="dis('.')">.</th>
 
-				<td id="equals"  onmouseover="mouse_overequal(this)" onmouseout="mouse_outequal(this)" value="=" onclick="solve()">=</td>
+				<td id="equals" onmouseover="mouse_overequal(this)" onmouseout="mouse_outequal(this)" value="=" onclick="solve()">=</td>
 
 			</tr>
 
@@ -102,4 +107,5 @@
 
 	</form>
 </body>
+
 </html>

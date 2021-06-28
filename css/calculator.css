@@ -36,8 +36,13 @@ body{
 }
 @media only screen and (max-width: 600px) {
   	body {
-	  	width: 90%;
+	  	width: 98%;
   	}
+	
+	td, th {
+		padding: 41px 8px;
+		font-size: 23px;
+	}
 }
 
 td{

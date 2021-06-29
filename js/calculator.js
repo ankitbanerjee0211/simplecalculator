@@ -4,31 +4,31 @@
 function mouse_over(x)
 {
 	x.style.backgroundColor = "#696969";
-	x.style.border = "3px solid orange";
+	x.style.border = "4.2px solid orange";
 }
 
 function mouse_outtd(x)
 {
 	x.style.backgroundColor = "#424242";
-	x.style.border = "3px solid #dddddd";
+	x.style.border = "4.2px solid #dddddd";
 }
 
 function mouse_outth(x)
 {
 	x.style.backgroundColor = "black";
-	x.style.border = "3px solid #dddddd";
+	x.style.border = "4.2px solid #dddddd";
 }
 
 function mouse_overequal(x)
 {
 	x.style.backgroundColor = "#FF9C00";
-	x.style.border = "3px solid #DDEB00";
+	x.style.border = "4.2px solid #DDEB00";
 }
 
 function mouse_outequal(x)
 {
 	x.style.backgroundColor = "#9E550E";
-	x.style.border = "3px solid #dddddd";
+	x.style.border = "4.2px solid #dddddd";
 }
 
 //  CALCULATION SECTION

@@ -1,6 +1,9 @@
 .calculator-table{
 	border-collapse: separate;
-	width: 572px;
+	width: 100%;
+}
+html{
+	width: 96%;
 	margin: 0px auto;
 }
 
@@ -18,6 +21,7 @@ td:hover ,th:hover{
 
 .calculator{
 	width: 100%;
+	margin: 0px auto;
 }
 
 
@@ -28,7 +32,6 @@ td:hover ,th:hover{
 	background-color: #BAB6BA;
 	border-top-left-radius: 22px;
     border-top-right-radius: 22px;
-	width: 550px;
 	margin: 0px auto;
 }
 
@@ -43,15 +46,12 @@ body{
 	background-color: black;
 }
 
-@media screen and (max-width: 600px) {
-  	.header{
-		width: 94%;
+@media screen and (max-width: 572px) {
+
+	html{
+		width: 572px;
 	}
 
-	.calculator-table{
-		width: 98%;
-	}
-	
 	td, th {
 		padding: 28px 7px;
 		font-size: 27px;

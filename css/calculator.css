@@ -21,7 +21,10 @@ html{
 	}
 	h1{
 		font-size: 1.6em;
-		font-weight: bolder;
+	}
+	input[type="text"]{
+		width: 93%;
+		font-size: 28px;
 	}
 }
 

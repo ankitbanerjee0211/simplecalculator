@@ -4,7 +4,7 @@
 	width: 100%;
 }
 html{
-	width: 545px;
+	width: 525px;
 	margin: 0px auto;
 }
 
@@ -35,6 +35,11 @@ td, th{
 	padding: 18.5px 0px;
 	text-align: center;
 	font-size: 28px;
+	border-radius: 11px;
+}
+
+.input_space{
+	border-radius: 0 0 20px 20px;
 }
 
 td:hover ,th:hover{

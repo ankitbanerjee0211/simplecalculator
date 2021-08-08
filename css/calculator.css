@@ -1,3 +1,9 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 .calculator-table{
 	border-collapse: separate;
 	margin: 0px auto;
@@ -33,14 +39,14 @@ td:hover ,th:hover{
 
 
 .header{
-	padding: 5px;
-	border: solid 4px #ffab42;
-	text-align: center;
-	background-color: #BAB6BA;
-	border-top-left-radius: 22px;
+	padding: 10px 15px;
+    border: solid 4px #ffab42;
+    text-align: center;
+    background-color: #BAB6BA;
+    border-top-left-radius: 22px;
     border-top-right-radius: 22px;
-	margin: 0px auto;
-	width: 95%;
+    margin: 0px auto;
+    width: 99%;
 }
 
 th{
@@ -82,7 +88,7 @@ input[type="text"]{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     text-align: center;
-    padding: 6px 0;
+    padding: 6px 3px;
     opacity: 0.8;
     border-top: 3px solid grey;
 	border-radius: 3vmin 3vmin 0 0;
@@ -106,7 +112,7 @@ input[type="text"]{
 		width: 95%;
 	}
 	.header{
-		width: 92%;
+		width: 99%;
 	}
 	h1{
 		font-size: 1.6em;

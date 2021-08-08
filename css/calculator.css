@@ -8,26 +8,6 @@ html{
 	margin: 0px auto;
 }
 
-@media only screen and (max-width: 600px) {
-	td, th{
-		padding: 0px;
-		font-size: 20px;
-		line-height: 8px;
-	}
-	html{
-		width: 96%;
-	}
-	.header{
-		width: 92%;
-	}
-	h1{
-		font-size: 1.6em;
-	}
-	input[type="text"]{
-		width: 93%;
-		font-size: 28px;
-	}
-}
 
 td, th{
 	border: 4.2px solid #dddddd;
@@ -91,4 +71,51 @@ input[type="text"]{
 	padding: 20px 8px;
 	text-align: right;
 	font-size: 32px;
+}
+
+#footer{
+	left: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-shadow: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 6px 0;
+    opacity: 0.8;
+    border-top: 3px solid grey;
+	border-radius: 3vmin 3vmin 0 0;
+}
+#footer a{
+	text-decoration: none;
+    cursor: pointer;
+    color: rgb(21, 56, 255);
+}
+#footer a img{
+	height: .8rem;
+}
+
+@media only screen and (max-width: 600px) {
+	td, th{
+		/* padding: 0px; */
+		font-size: 20px;
+		line-height: 8px;
+	}
+	html{
+		width: 95%;
+	}
+	.header{
+		width: 92%;
+	}
+	h1{
+		font-size: 1.6em;
+	}
+	input[type="text"]{
+		width: 93%;
+		font-size: 28px;
+	}
+	#footer{
+        font-size: 13px;
+    }
 }
